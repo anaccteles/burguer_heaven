@@ -1,9 +1,12 @@
+import { NavBar } from './NavBar';
+import { SectionDetach } from './SectionDetach';
+
 function App() {
   return (
-    <article className="text-nowrap text-amber-400">
-      <h3>Beloved Manhattan soup stand closes</h3>
-      <p>New Yorkers are facing the winter chill...</p>
-    </article>
+    <div className="bg-[#1E1E1E] w-full  h-[100vh]">
+      <NavBar />
+      <SectionDetach />
+    </div>
   );
 }
 
