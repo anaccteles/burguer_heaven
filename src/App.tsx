@@ -2,6 +2,7 @@ import { NavBar } from './NavBar';
 import { SectionDetach } from './SectionDetach';
 import { Promotioncard } from './Promotioncard';
 import { Cardorder } from './Cardorder';
+import { Footer } from './Footer';
 import batata from './assets/batata.png';
 import hamburguers from './assets/hamburguers.png';
 import burgers from './assets/burgers.png';
@@ -35,6 +36,7 @@ function App() {
           <h1 className="text-[#E9E3DC] text-center max-w-[1255px] text-[70px] leading-none mt-12">
             ORDER ONLINE OR COME VISIT US TODAY
           </h1>
+          <Footer />
         </div>
       </div>
     </div>
